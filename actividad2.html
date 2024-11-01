@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTIVIDAD2</title>
+</head>
+<body>
+    <script>
+        let numintento = 0
+        //Pregunta: ¿Qué sucede si se inicializa el contador con un valor negativo?
+        while(numintento >= 0){
+            numintento = parseInt(prompt("Ingresa un número (ingresa un número negativo para salir): "));
+
+            if(numintento < 0){
+                alert("Numero ingresado negativo, terminando el bucle.");
+            }else{
+                alert("numero ingresado positivo: " + numintento);
+            }
+        }
+    </script>
+    
+</body>
+</html>
